@@ -190,8 +190,8 @@ input {
   border-radius: 20%;
   box-shadow: 4px 8px;
   padding: 2px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row:1 ;
 }
 .opis-1 p {
   color: #d5e2ed;
@@ -199,6 +199,8 @@ input {
   font-size: 20px;
   font-weight: 400;
   padding: 2px;
+  grid-column:2;
+  grid-row:1 /span 2 ;
 }
 
 .team {
@@ -270,15 +272,14 @@ input {
     font-weight: 400;
     padding: 2px;
     width: 100%;
-    grid-column:1 /span 2;
-    grid-row:2;
+    grid-column:2;
+    grid-row:1 /span 2;
 
   }
   .opis-1 img {
     width:200px;
-    grid-column:1/ 2;
+    grid-column:1;
     grid-row:1 ;
-    margin-left: 50%;
 
   }
  
